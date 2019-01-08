@@ -20,8 +20,8 @@ Allow following parameters
 * sorting, default sort `published_date desc`
 * exclude articles without images
 
-GET /articles
-JSON Response Status 200
+`GET /articles`
+`JSON Response Status 200`
 
 ```
 {
