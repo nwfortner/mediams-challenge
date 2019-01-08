@@ -21,6 +21,7 @@ Allow following parameters
 * exclude articles without images
 
 `GET /articles`
+
 `JSON Response Status 200`
 
 ```
