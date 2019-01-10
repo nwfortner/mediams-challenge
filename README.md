@@ -72,4 +72,6 @@ Allow following parameters
 }
 ```
 
-Create `Pull Request` with your solution.
+
+Download and email solution to email provided.
+or Create `Pull Request` with your solution.
