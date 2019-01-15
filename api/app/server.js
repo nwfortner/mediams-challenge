@@ -4,10 +4,16 @@ const fastify = require('fastify')({
   logger: true
 });
 
+const {
+  getArticleListHandler,
+} = require('./handlers')
+
 // Declare a route
 fastify.get('/', function (request, reply) {
   reply.send({ hello: 'world' });
 });
+
+fastify.get('/articleList', getArticleListHandler)
 
 // Run the server!
 const start = async () => {
